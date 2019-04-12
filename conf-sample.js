@@ -44,13 +44,13 @@ c.kraken.tosagree = 'disagree'
 
 // to enable Binance trading, enter your API credentials:
 c.binance = {}
-c.binance.key = 'YOUR-API-KEY'
-c.binance.secret = 'YOUR-SECRET'
+c.binance.key = 'm942FURQnPb9TMlLkol5AALELKSC1yjAw76j0bjrJl9zUp0mouhCouK4KabcdsXO'
+c.binance.secret = 'srLd4wj80Fpfb3BFcZfsaRXRinwocZt9hKEXU5jZp0Cj0YvcNc3f4GVXoIUBOU9k'
 
 // to enable Bittrex trading, enter your API credentials:
 c.bittrex = {}
-c.bittrex.key = 'YOUR-API-KEY'
-c.bittrex.secret = 'YOUR-SECRET'
+c.bittrex.key = '4a03f8e9e4924aa09f851cfb24c7e8ec '
+c.bittrex.secret = 'dd78300610374508811e53da3539a68e'
 // make sure to give your API key access to only: "Trade Limit" and "Read Info",
 // please note that this might change in the future.
 // please note that bittrex API is limited, you cannot use backfills or sims (paper/live trading only)
@@ -256,4 +256,4 @@ c.output  = {}
 c.output.api = {}
 c.output.api.on = true
 c.output.api.ip = '0.0.0.0' // IPv4 or IPv6 address to listen on, uses all available interfaces if omitted
-c.output.api.port = 0 // 0 = random port, set to 17365 if you use docker
+c.output.api.port = 9090 // 0 = random port, set to 17365 if you use docker
